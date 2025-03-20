@@ -75,8 +75,7 @@ class Stack:
         """
         return self.size() == 0
     
-
-if __name__ == "__main__":
+def main():
     """
 	Description:
 		This function calls all necessary sub-functions to perform the intended operations 
@@ -95,4 +94,7 @@ if __name__ == "__main__":
     print(s1.pop())
     print(s1.pop())
     print(s1.pop())
-    print("The number of items present in the stack is",s1.size())
+    print("The number of items present in the stack is",s1.size())  
+
+if __name__ == "__main__":
+    main()
