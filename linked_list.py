@@ -144,8 +144,7 @@ class SingleLinkedList:
             ptr = ptr.next
         ptr.next = None
         
-        
-if __name__ == "__main__":
+def main():
     """
 	Description:
 		This function calls all necessary sub-functions to perform the intended operations 
@@ -171,3 +170,7 @@ if __name__ == "__main__":
     linked_list.delete_at_end()
     linked_list.print()
     linked_list.count_nodes()
+        
+        
+if __name__ == "__main__":
+    main()
